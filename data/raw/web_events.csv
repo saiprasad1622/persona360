@@ -1,0 +1,13 @@
+event_id,customer_id,event_date,page,event_type,duration_seconds
+W001,C001,2026-08-01,Pricing,View,120
+W002,C001,2026-08-04,Product,View,240
+W003,C002,2026-08-02,Home,View,45
+W004,C002,2026-08-07,Pricing,View,90
+W005,C003,2026-08-04,Product,View,180
+W006,C004,2026-08-06,Home,View,35
+W007,C005,2026-08-07,Pricing,View,25
+W008,C006,2026-08-08,Product,View,310
+W009,C007,2026-08-10,Pricing,View,140
+W010,C008,2026-08-11,Home,View,20
+W011,C009,2026-08-12,Product,View,270
+W012,C010,2026-08-13,Pricing,View,110

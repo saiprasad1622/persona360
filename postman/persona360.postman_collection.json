@@ -1,0 +1,81 @@
+{
+  "info": {
+    "name": "Persona360 API",
+    "description": "Customer 360 API testing collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.example.com"
+    }
+  ],
+
+  "item": [
+
+    {
+      "name": "Get Customer 360",
+
+      "request": {
+        "method": "GET",
+
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/customers/C001"
+        }
+      }
+    },
+
+    {
+      "name": "Search High Value Customers",
+
+      "request": {
+        "method": "GET",
+
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/customers?persona=High%20Value"
+        }
+      }
+    },
+
+    {
+      "name": "Create Customer",
+
+      "request": {
+        "method": "POST",
+
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+
+        "body": {
+          "mode": "raw",
+
+          "raw": "{\n  \"customer_id\": \"C011\",\n  \"customer_name\": \"Test Customer\",\n  \"email\": \"test@example.com\",\n  \"city\": \"Bengaluru\",\n  \"plan\": \"Standard\",\n  \"customer_type\": \"SMB\"\n}"
+        },
+
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/customers"
+        }
+      }
+    }
+
+  ]
+}

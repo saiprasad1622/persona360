@@ -1,0 +1,14 @@
+sale_id,customer_id,sale_date,amount,status,payment_method
+S001,C001,2026-07-03,12000,Completed,Card
+S002,C001,2026-08-14,8500,Completed,UPI
+S003,C002,2026-07-09,3200,Completed,Card
+S004,C003,2026-07-12,7400,Completed,UPI
+S005,C003,2026-08-02,4100,Completed,Card
+S006,C004,2026-08-18,2800,Completed,UPI
+S007,C005,2026-07-21,1900,Completed,UPI
+S008,C006,2026-07-27,15500,Completed,Card
+S009,C006,2026-08-23,13200,Completed,Bank Transfer
+S010,C007,2026-08-25,3600,Completed,UPI
+S011,C008,2026-08-28,1500,Refunded,Card
+S012,C009,2026-08-30,9800,Completed,Card
+S013,C010,2026-08-31,2900,Completed,UPI

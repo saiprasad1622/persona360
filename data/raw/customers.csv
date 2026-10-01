@@ -1,0 +1,11 @@
+customer_id,customer_name,email,city,signup_date,plan,customer_type
+C001,Aarav Sharma,aarav.sharma@example.com,Bengaluru,2024-01-15,Premium,Enterprise
+C002,Diya Patel,diya.patel@example.com,Mumbai,2024-02-10,Standard,Retail
+C003,Rohan Mehta,rohan.mehta@example.com,Pune,2024-03-22,Premium,SMB
+C004,Ananya Rao,ananya.rao@example.com,Hyderabad,2024-04-05,Standard,Retail
+C005,Vikram Singh,vikram.singh@example.com,Delhi,2024-05-17,Basic,SMB
+C006,Meera Nair,meera.nair@example.com,Chennai,2024-06-01,Premium,Enterprise
+C007,Kabir Joshi,kabir.joshi@example.com,Bengaluru,2024-07-11,Standard,SMB
+C008,Isha Kulkarni,isha.kulkarni@example.com,Pune,2024-08-19,Basic,Retail
+C009,Aditya Deshmukh,aditya.deshmukh@example.com,Nagpur,2024-09-08,Premium,Enterprise
+C010,Sneha Iyer,sneha.iyer@example.com,Kochi,2024-10-21,Standard,Retail

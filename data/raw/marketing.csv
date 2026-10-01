@@ -1,0 +1,11 @@
+campaign_id,customer_id,campaign_date,channel,engagement,campaign_name
+M001,C001,2026-08-01,Email,Opened,Premium Upgrade
+M002,C002,2026-08-02,Email,Clicked,Summer Sale
+M003,C003,2026-08-04,SMS,Opened,Cross Sell
+M004,C004,2026-08-06,Email,Ignored,Summer Sale
+M005,C005,2026-08-07,SMS,Clicked,Retention
+M006,C006,2026-08-08,Email,Opened,Premium Upgrade
+M007,C007,2026-08-10,Email,Clicked,Cross Sell
+M008,C008,2026-08-11,SMS,Ignored,Retention
+M009,C009,2026-08-12,Email,Opened,Premium Upgrade
+M010,C010,2026-08-13,Email,Clicked,Summer Sale
